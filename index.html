@@ -1,16 +1,20 @@
 <html>
-    <head>
-<link rel="stylesheet" href="css/styles.css">
-    </head>
 
-    <body>
-        <h1>The Ball Game</h1>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>The Ball Game</h1>
+    <div class="balls-container">
         <div class="ball1" onclick="onBallClick(this)">100</div>
         <div class="ball2" onclick="onBallClick(this)">100</div>
         <div class="ball3" onclick="onSwitchAttributes()">Switch</div>
         <div class="ball4" onclick="onReduceBallsSize()">Reduce Size</div>
+        <div class="ball5" onclick="onChangeBackgroundColor()">Change Background Color</div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
-        <script src="js/util.js"></script>
-        <script src="js/main.js"></script>
-    </body>
 </html>

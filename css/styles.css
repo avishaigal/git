@@ -7,63 +7,37 @@ h1 {
     text-align: center;
 }
 
-.ball1 {
+.balls-container>* {
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 100px;
     width: 100px;
+    padding: 20px;
     margin: auto;
     border-radius: 50%;
 
-    background-color: lightblue;
     font-size: 22px;
     font-weight: bold;
+}
+
+.ball1 {
+    background-color: lightblue;
 }
 
 .ball2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-
     background-color: rgb(189, 101, 155);
-    font-size: 22px;
-    font-weight: bold;
-
 }
 
 .ball3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-
     background-color: rgb(68, 93, 173);
-    font-size: 22px;
-    font-weight: bold;
 }
 
 .ball4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-
     background-color: rgb(68, 173, 103);
-    font-size: 22px;
-    font-weight: bold;
+}
+
+.ball5 {
+    background-color: rgb(164, 199, 84);
 }
