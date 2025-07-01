@@ -9,30 +9,46 @@ h1 {
 
 .ball1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     height: 100px;
     width: 100px;
-    border-radius: 50%;
-    background-color: lightblue;
     margin: auto;
+    border-radius: 50%;
+
+    background-color: lightblue;
     font-size: 22px;
     font-weight: bold;
-
-    justify-content: center;
-    align-items: center;
 }
 
 .ball2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: rgb(189, 101, 155);
     margin: auto;
+
+    background-color: rgb(189, 101, 155);
     font-size: 22px;
     font-weight: bold;
 
+}
+
+.ball3 {
+    display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+
+    background-color: rgb(68, 93, 173);
+    font-size: 22px;
+    font-weight: bold;
 }
