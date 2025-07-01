@@ -52,3 +52,18 @@ h1 {
     font-size: 22px;
     font-weight: bold;
 }
+
+.ball4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+
+    background-color: rgb(68, 173, 103);
+    font-size: 22px;
+    font-weight: bold;
+}
