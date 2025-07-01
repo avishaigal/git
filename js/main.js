@@ -2,12 +2,13 @@
 
 var gBallSize = 100
 
-function onBallClick() {
-    const elBall = document.querySelector('.ball')
+function onBallClick(currBall) {
+    const elBall = document.querySelector(`.ball${currBall}`)
     const randSize = getRandomInt(20, 60)
     const elBallColor = getRandomColor()
+    const maxDiameter = gBallSize + randSize
 
-    gBallSize + randSize >= 400 ? gBallSize = 100 : gBallSize += randSize
+    maxDiameter >= 400 ? gBallSize = 100 : gBallSize += randSize
 
     elBall.style.height = gBallSize
     elBall.style.width = gBallSize
