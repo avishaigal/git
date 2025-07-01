@@ -9,8 +9,6 @@ h1 {
 
 .ball {
     display: flex;
-    justify-content: center;
-    align-items: center;
 
     height: 100px;
     width: 100px;
@@ -19,6 +17,7 @@ h1 {
     margin: auto;
     font-size: 22px;
     font-weight: bold;
-    transition: 1s;
 
+    justify-content: center;
+    align-items: center;
 }
