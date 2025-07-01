@@ -4,12 +4,20 @@ body {
 
 h1 {
     color: white;
+    text-align: center;
 }
 
 .ball {
+    display: flex;
+
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: lightblue;
     margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+
+    justify-content: center;
+    align-items: center;
 }
